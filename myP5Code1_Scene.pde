@@ -1,21 +1,19 @@
-var bakeryLabels = ["Crossiants","Baguettes"];
+
 
 setup = function() {
 
   size(400, 400); 
   background(0,0,0,0);
 
-  var crossiantX = 60;
-  textSize(30);
+var ICF = ["Garlic","Mac & Cheese","Pickles","Lobster","Tylenol","Cold medicine"];
+var icfN = 0;
+// first array flavors
 
-  while(crossiantX < 300){
-    text("🥐", crossiantX, 85);
-    crossiantX += 40;
-  }
+text("Click for more", 20,170); //later
 
-  textSize(15);
-  text(bakeryLabels[0], 70, 105);
-  text(bakeryLabels[1], 70, 185);
+while(icfN< ICF.length){
+  
+}
 }
 
 draw = function(){   

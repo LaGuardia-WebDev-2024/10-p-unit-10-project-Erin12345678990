@@ -1,7 +1,5 @@
 body {
-  background-image: url("Sprinkles.jpg");
-  background-color: hsl(213, 85%, 92%);
-  background-blend-mode: overlay;
+  background-color: hsl(240, 17%, 24%);
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -16,15 +14,8 @@ html{
 
 #myCanvas1 {
   border: 1px solid black;
-  background-image: url("supermarket-interior-shelf_165488-3982.avif");
+  background-image: url("https://thumbs.dreamstime.com/b/suspicious-man-14107363.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
-
-#myCanvas2 {
-  border: 1px solid black;
-  border-radius: 30px;
-}
-
-
